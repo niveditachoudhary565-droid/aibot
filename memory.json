@@ -1,0 +1,470 @@
+[
+  {
+    "ticket": 432937671,
+    "deal_id": 314979112,
+    "symbol": "BTCUSD",
+    "side": "BUY",
+    "entry_price": 84039.48,
+    "stop_loss": 83198.81,
+    "take_profit": 85623.14,
+    "volume": 0.01,
+    "risk_percent": 1.0,
+    "confidence": 85.0,
+    "ai_logic": "Daily and H1 both show bullish trend with price above EMA200 and rising volume, supporting a long position. The H1 ATR-based stop and target provide a clear risk-reward setup.",
+    "opened_at": "2026-09-24 19:07:11",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 538.741631,
+        "relative_volume": 0.91,
+        "tick_volume": 5731,
+        "rsi": 45.37,
+        "price_vs_ema200": 2.159
+      },
+      "daily": {
+        "atr": 2541.195205,
+        "relative_volume": 0.82,
+        "tick_volume": 107927,
+        "rsi": 63.71,
+        "price_vs_ema200": 14.199
+      },
+      "correlated_asset_prices": {
+        "EURUSD": {
+          "bid": 1.13641,
+          "ask": 1.13656,
+          "mid": 1.136485
+        },
+        "GBPUSD": {
+          "bid": 1.32193,
+          "ask": 1.32208,
+          "mid": 1.322005
+        },
+        "XAUUSD": {
+          "bid": 4272.62,
+          "ask": 4272.83,
+          "mid": 4272.725
+        }
+      }
+    },
+    "exit_price": 83198.81,
+    "closed_at": "2026-09-25T17:05:50+00:00",
+    "realized_profit": -8.47,
+    "outcome": "LOSS"
+  },
+  {
+    "ticket": 432980385,
+    "deal_id": 315011994,
+    "symbol": "EURUSD",
+    "side": "SELL",
+    "entry_price": 1.13723,
+    "stop_loss": 1.1388,
+    "take_profit": 1.1331,
+    "volume": 0.06,
+    "risk_percent": 1.0,
+    "confidence": 65.0,
+    "ai_logic": "Both daily and H1 trends are bearish with price below EMA200, and H1 volume confirms the move, though daily RSI is oversold. We enter a short at 1.1369 with stop loss 1.5 ATR above and take profit 3 ATR below.",
+    "opened_at": "2026-09-24 19:25:50",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 0.001269,
+        "relative_volume": 1.24,
+        "tick_volume": 4647,
+        "rsi": 36.87,
+        "price_vs_ema200": -0.922
+      },
+      "daily": {
+        "atr": 0.004883,
+        "relative_volume": 0.74,
+        "tick_volume": 65616,
+        "rsi": 25.3,
+        "price_vs_ema200": -1.856
+      },
+      "correlated_asset_prices": {
+        "GBPUSD": {
+          "bid": 1.32181,
+          "ask": 1.32196,
+          "mid": 1.321885
+        },
+        "BTCUSD": {
+          "bid": 84065.1,
+          "ask": 84082.13,
+          "mid": 84073.615
+        },
+        "XAUUSD": {
+          "bid": 4266.42,
+          "ask": 4266.62,
+          "mid": 4266.52
+        }
+      }
+    },
+    "exit_price": 1.1388,
+    "closed_at": "2026-09-24T19:16:45+00:00",
+    "realized_profit": -9.42,
+    "outcome": "LOSS"
+  },
+  {
+    "ticket": 433010008,
+    "deal_id": 315033886,
+    "symbol": "GBPUSD",
+    "side": "SELL",
+    "entry_price": 1.32211,
+    "stop_loss": 1.32461,
+    "take_profit": 1.31783,
+    "volume": 0.04,
+    "risk_percent": 1.0,
+    "confidence": 68.0,
+    "ai_logic": "Daily and H1 price are below their EMA200s, with RSI below 50 on both, aligning macro and micro momentum bearishly; H1 ATR supports a 1.5 ATR stop and 3 ATR target. Daily RSI at 25.01 is oversold and relative volume is low on both timeframes, limiting confidence and requiring downside follow-through.",
+    "opened_at": "2026-09-24 19:45:26",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 0.001507,
+        "relative_volume": 0.35,
+        "tick_volume": 1760,
+        "rsi": 35.63,
+        "price_vs_ema200": -1.085
+      },
+      "daily": {
+        "atr": 0.006265,
+        "relative_volume": 0.76,
+        "tick_volume": 94215,
+        "rsi": 25.01,
+        "price_vs_ema200": -1.547
+      },
+      "correlated_asset_prices": {
+        "EURUSD": {
+          "bid": 1.13768,
+          "ask": 1.13781,
+          "mid": 1.137745
+        },
+        "BTCUSD": {
+          "bid": 84216.03,
+          "ask": 84233.02,
+          "mid": 84224.525
+        },
+        "XAUUSD": {
+          "bid": 4270.65,
+          "ask": 4270.85,
+          "mid": 4270.75
+        }
+      }
+    },
+    "exit_price": 1.32461,
+    "closed_at": "2026-09-25T13:05:48+00:00",
+    "realized_profit": -10.04,
+    "outcome": "LOSS"
+  },
+  {
+    "ticket": 433948050,
+    "deal_id": 315670156,
+    "symbol": "EURUSD",
+    "side": "SELL",
+    "entry_price": 1.13679,
+    "stop_loss": 1.13842,
+    "take_profit": 1.13391,
+    "volume": 0.06,
+    "risk_percent": 1.0,
+    "confidence": 85.0,
+    "ai_logic": "Both daily and H1 charts show price below the 200\u2011period EMA with a bearish trend and low momentum, indicating a continuation of the downside. The low volume and oversold RSI reinforce the short bias, so a SELL with a 1.5\u202fATR stop and 3\u202fATR target is appropriate.",
+    "opened_at": "2026-09-25 09:02:07",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 0.001003,
+        "relative_volume": 0.19,
+        "tick_volume": 681,
+        "rsi": 39.65,
+        "price_vs_ema200": -0.792
+      },
+      "daily": {
+        "atr": 0.004635,
+        "relative_volume": 0.11,
+        "tick_volume": 9448,
+        "rsi": 25.26,
+        "price_vs_ema200": -1.791
+      },
+      "correlated_asset_prices": {
+        "GBPUSD": {
+          "bid": 1.32105,
+          "ask": 1.3212,
+          "mid": 1.321125
+        },
+        "BTCUSD": {
+          "bid": 84115.47,
+          "ask": 84132.51,
+          "mid": 84123.99
+        },
+        "XAUUSD": {
+          "bid": 4277.2,
+          "ask": 4277.41,
+          "mid": 4277.305
+        }
+      }
+    },
+    "exit_price": 1.13842,
+    "closed_at": "2026-09-25T09:15:36+00:00",
+    "realized_profit": -9.78,
+    "outcome": "LOSS"
+  },
+  {
+    "ticket": 435123788,
+    "deal_id": 316420734,
+    "symbol": "GBPUSD",
+    "side": "BUY",
+    "entry_price": 1.32358,
+    "stop_loss": 1.32181,
+    "take_profit": 1.32742,
+    "volume": 0.05,
+    "risk_percent": 1.0,
+    "confidence": 65.0,
+    "ai_logic": "Daily RSI at 27.65 is oversold while price remains below EMA200, suggesting potential exhaustion of bearish momentum; H1 shows elevated volume (1.25x) with neutral RSI (51.0), indicating possible institutional buying interest after recent decline.",
+    "opened_at": "2026-09-25 21:09:19",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 0.001247,
+        "relative_volume": 1.25,
+        "tick_volume": 4845,
+        "rsi": 51.0,
+        "price_vs_ema200": -0.738
+      },
+      "daily": {
+        "atr": 0.006278,
+        "relative_volume": 0.61,
+        "tick_volume": 75843,
+        "rsi": 27.65,
+        "price_vs_ema200": -1.372
+      },
+      "correlated_asset_prices": {
+        "EURUSD": {
+          "bid": 1.13934,
+          "ask": 1.13948,
+          "mid": 1.13941
+        },
+        "BTCUSD": {
+          "bid": 83641.37,
+          "ask": 83658.35,
+          "mid": 83649.86
+        },
+        "XAUUSD": {
+          "bid": 4277.99,
+          "ask": 4278.19,
+          "mid": 4278.09
+        }
+      }
+    },
+    "exit_price": 1.32742,
+    "closed_at": "2026-09-28T17:12:50+00:00",
+    "realized_profit": 19.25,
+    "outcome": "WIN"
+  },
+  {
+    "ticket": 435142361,
+    "deal_id": 316431299,
+    "symbol": "BTCUSD",
+    "side": "BUY",
+    "entry_price": 83431.65,
+    "stop_loss": 82523.28,
+    "take_profit": 85113.52,
+    "volume": 0.01,
+    "risk_percent": 1.0,
+    "confidence": 80.0,
+    "ai_logic": "The daily and H1 trends are bullish with price above the EMA200 on both timeframes, and elevated H1 volume confirms the move. The H1 RSI at 35.33 suggests a potential oversold bounce within the larger uptrend, justifying a long entry with risk managed via H1 ATR.",
+    "opened_at": "2026-09-25 21:22:25",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 575.609089,
+        "relative_volume": 1.54,
+        "tick_volume": 10549,
+        "rsi": 35.33,
+        "price_vs_ema200": 0.7
+      },
+      "daily": {
+        "atr": 2526.739248,
+        "relative_volume": 0.95,
+        "tick_volume": 131888,
+        "rsi": 61.29,
+        "price_vs_ema200": 13.529
+      },
+      "correlated_asset_prices": {
+        "EURUSD": {
+          "bid": 1.13859,
+          "ask": 1.13873,
+          "mid": 1.13866
+        },
+        "GBPUSD": {
+          "bid": 1.32302,
+          "ask": 1.32317,
+          "mid": 1.323095
+        },
+        "XAUUSD": {
+          "bid": 4271.18,
+          "ask": 4271.39,
+          "mid": 4271.285
+        }
+      }
+    },
+    "exit_price": 85113.52,
+    "closed_at": "2026-09-27T16:34:05+00:00",
+    "realized_profit": 16.82,
+    "outcome": "WIN"
+  },
+  {
+    "ticket": 439508811,
+    "deal_id": 319438907,
+    "symbol": "GBPUSD",
+    "side": "SELL",
+    "entry_price": 1.3229899999999999,
+    "stop_loss": 1.3255,
+    "take_profit": 1.3188,
+    "volume": 0.04,
+    "risk_percent": 1.0,
+    "confidence": 85.0,
+    "ai_logic": "The price is significantly below the 200-day EMA (1.32307 vs 1.34184), indicating a strong bearish trend. The Daily RSI of 28.93 is neutral-low, and the suppressed relative volume (0.8) suggests weak buying interest despite slightly elevated H1 volume (1.05). These factors together create a clear bearish setup with limited upside potential.",
+    "opened_at": "2026-09-30 00:13:26",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 0.001475,
+        "relative_volume": 1.05,
+        "tick_volume": 5131,
+        "rsi": 49.25,
+        "price_vs_ema200": -0.475
+      },
+      "daily": {
+        "atr": 0.006209,
+        "relative_volume": 0.8,
+        "tick_volume": 99049,
+        "rsi": 28.93,
+        "price_vs_ema200": -1.399
+      },
+      "correlated_asset_prices": {
+        "EURUSD": {
+          "bid": 1.13412,
+          "ask": 1.13425,
+          "mid": 1.134185
+        },
+        "BTCUSD": {
+          "bid": 83689.57,
+          "ask": 83706.67,
+          "mid": 83698.12
+        },
+        "XAUUSD": {
+          "bid": 4171.52,
+          "ask": 4171.73,
+          "mid": 4171.625
+        }
+      }
+    },
+    "exit_price": 1.3255,
+    "closed_at": "2026-09-30T09:01:30+00:00",
+    "realized_profit": -10.04,
+    "outcome": "LOSS"
+  },
+  {
+    "ticket": 441770297,
+    "deal_id": 320887816,
+    "symbol": "GBPUSD",
+    "side": "SELL",
+    "entry_price": 1.32505,
+    "stop_loss": 1.32682,
+    "take_profit": 1.32151,
+    "volume": 0.05,
+    "risk_percent": 1.0,
+    "confidence": 70.0,
+    "ai_logic": "The market exhibits a clear BEARISH macro trend with price consistently below the EMA200, while both daily and H1 relative volumes are critically low (0.14 and 0.31 respectively), triggering the high-confidence reduction rule. Extremely low ATR (0.00118) indicates suppressed volatility and poor risk management. Historically, three losing trades occurred under identical low-volume/bearish conditions, confirming this setup as a high-risk reversal opportunity where the downside bias outweighs any short-term pullback potential.",
+    "opened_at": "2026-10-01 09:04:06",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 0.00118,
+        "relative_volume": 0.31,
+        "tick_volume": 1415,
+        "rsi": 44.1,
+        "price_vs_ema200": -0.188
+      },
+      "daily": {
+        "atr": 0.006114,
+        "relative_volume": 0.14,
+        "tick_volume": 16078,
+        "rsi": 33.17,
+        "price_vs_ema200": -1.269
+      },
+      "correlated_asset_prices": {
+        "EURUSD": {
+          "bid": 1.13216,
+          "ask": 1.13231,
+          "mid": 1.132235
+        },
+        "BTCUSD": {
+          "bid": 83524.21,
+          "ask": 83541.22,
+          "mid": 83532.715
+        },
+        "XAUUSD": {
+          "bid": 4164.82,
+          "ask": 4165.01,
+          "mid": 4164.915
+        }
+      }
+    },
+    "exit_price": 1.32151,
+    "closed_at": "2026-10-01T11:53:02+00:00",
+    "realized_profit": 17.7,
+    "outcome": "WIN"
+  },
+  {
+    "ticket": 455902444,
+    "deal_id": 328120532,
+    "symbol": "BTCUSD",
+    "side": "BUY",
+    "entry_price": 82365.4,
+    "stop_loss": 81705.26,
+    "take_profit": 83720.8,
+    "volume": 0.01,
+    "risk_percent": 1.0,
+    "confidence": 70.0,
+    "ai_logic": "Price remains firmly above EMA200 on both daily and H1 timeframes indicating strong bullish momentum. Although daily relative volume (0.6) and H1 relative volume (0.34) are subdued\u2014triggering risk audit penalties of 15 points each\u2014the fundamental trend is intact with RSI staying neutral-to-bullish (68.4/71.65). The combination of sustained price above EMA200 and healthy short-term volatility supports a BUY entry with protective stop below entry and aggressive target above entry.",
+    "opened_at": "2026-10-09 09:21:26",
+    "status": "CLOSED",
+    "market_context": {
+      "h1": {
+        "atr": 447.896519,
+        "relative_volume": 0.34,
+        "tick_volume": 1960,
+        "rsi": 71.65,
+        "price_vs_ema200": 2.588
+      },
+      "daily": {
+        "atr": 2302.693422,
+        "relative_volume": 0.6,
+        "tick_volume": 86371,
+        "rsi": 68.4,
+        "price_vs_ema200": 17.303
+      },
+      "correlated_asset_prices": {
+        "EURUSD": {
+          "bid": 1.12256,
+          "ask": 1.1227,
+          "mid": 1.12263
+        },
+        "GBPUSD": {
+          "bid": 1.3237999999999999,
+          "ask": 1.32395,
+          "mid": 1.323875
+        },
+        "XAUUSD": {
+          "bid": 4176.41,
+          "ask": 4176.6,
+          "mid": 4176.505
+        }
+      }
+    },
+    "exit_price": 83376.81,
+    "closed_at": "2026-10-11T18:40:22+00:00",
+    "realized_profit": 10.12,
+    "outcome": "WIN"
+  }
+]

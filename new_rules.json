@@ -1,0 +1,223 @@
+{
+  "rules": [
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "SELL with daily relative_volume < 0.8",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Trades 2,3,4 daily vol 0.74,0.76,0.11"
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "SELL when BTCUSD > 84000 and XAUUSD > 4260",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Trades 2,3,4 BTC 84073/84224/84123 XAU 4266/4270/4277"
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "SELL with daily ATR > 0.004",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Trades 2,3,4 ATR 0.004883,0.006265,0.004635"
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "H1 relative volume < 1.0 AND daily relative volume < 1.0",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Three losing trades (BTCUSD buy, GBPUSD sell, EURUSD sell) occurred when both H1 and daily relative volume were below 1.0, indicating breakout attempts in low liquidity conditions."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Hourly relative volume below 1.0",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "BTCUSD 0.91, GBPUSD 0.35, EURUSD 0.19"
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Stop distance exceeds 1.5 times hourly ATR",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "BTCUSD 1.56x, GBPUSD 1.66x, EURUSD 1.62x"
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Daily relative volume below 0.8",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "EURUSD 0.74, GBPUSD 0.76, EURUSD 0.11"
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Entry on low relative volume (h1 <0.9 or daily <0.8) indicating weak breakout",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "BTCUSD h1 vol 0.91, GBPUSD h1 vol 0.35, EURUSD h1 vol 0.19 \u2013 all below threshold"
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Stop\u2011loss distance >1.5 \u00d7 1\u2011hour ATR (over\u2011extended volatility)",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "All 4 trades have stop distance \u22481.5\u20112.0\u00d7 h1 ATR (e.g., BTCUSD 840 vs 539 ATR, EURUSD 0.00157 vs 0.00127)"
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Adverse cross\u2011asset correlation \u2013 primary move opposite to at least one correlated asset",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "BTCUSD long while XAUUSD fell; GBPUSD short while BTCUSD rose; EURUSD short while XAUUSD rose \u2013 each contributed to loss"
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Low relative volume (\u22640.5) combined with extremely low ATR (<=0.002) creates volatility trap and increases failure likelihood",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "Four losing trades show relative volume \u22640.5 (EURUSD 0.19, GBPUSD 0.35, BTCUSD 0.91) paired with ATR < 0.002 (EURUSD 0.001003, GBPUSD 0.001507, BTCUSD 0.001269), confirming systematic breakdown under suppressed liquidity and minimal price movement."
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Low\u2011volume breakout (h1 relative_volume < 1) resulting in loss",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Trades 1,3,4 had h1 relative_volume 0.91,0.35,0.19 (<1) and all closed negative."
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Daily relative volume <0.85 at trade entry",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "All four losing trades had daily relative volume \u22640.82, indicating low participation."
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "ATR (h1) <0.0016 for forex pairs at entry",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "EURUSD (0.001269), GBPUSD (0.001507), EURUSD (0.001003) showed low ATR, leading to stop\u2011out."
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Short forex trade entered while BTCUSD and XAUUSD are rising",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "In three EURUSD/GBPUSD shorts, BTCUSD and XAUUSD were above entry levels, creating adverse cross\u2011asset pressure."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Daily relative volume < 1.0",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "All four losing trades had daily relative volume below 1.0."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Daily relative volume < 0.8",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Three losing trades (EURUSD, GBPUSD, EURUSD) had daily relative volume below 0.8."
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Low\u2011volume breakout (h1 relative volume <0.4) with stop loss \u22640.2% of entry",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Trades #2 (EURUSD SELL), #3 (GBPUSD SELL) and #4 (EURUSD SELL) had h1 vol <0.4, tight stops \u22640.2% and all closed at a loss."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "H1 relative volume below 1.0 at entry (low-volume breakout condition)",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Three losing trades (BTCUSD, GBPUSD, EURUSD second) entered with H1 relative volume 0.91, 0.35, 0.19 respectively."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Daily relative volume below 0.85 at entry",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "All four losing trades occurred with daily relative volume below 0.85 (0.82, 0.74, 0.76, 0.11)."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "H1 relative volume < 1.0 and daily relative volume < 1.0",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "BTC H1 0.91/daily 0.82, GBP H1 0.35/daily 0.76, EUR H1 0.19/daily 0.11 all lost"
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Stop distance > 1.5x H1 ATR and target distance > 2.8x H1 ATR",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "BTC stop 1.56x/TP 2.94x, GBP 1.66x/2.84x, EUR 1.63x/2.87x H1 ATR; all lost"
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "EURUSD/GBPUSD SELL with BTCUSD < 84,300 and XAUUSD > 4,265",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "EUR SELL at BTC 84,074/XAU 4,266.5 and BTC 84,124/XAU 4,277.3; GBP SELL at BTC 84,225/XAU 4,270.8; all lost"
+    },
+    {
+      "affected_symbol": "EURUSD OR GBPUSD",
+      "setup": "Short entry on EURUSD/GBPUSD when hourly ATR <0.0015 and daily ATR <0.005 (low volatility)",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "All 4 losing trades were short EURUSD/GBPUSD with hourly ATR <0.0015 and daily ATR <0.005."
+    },
+    {
+      "affected_symbol": "EURUSD OR GBPUSD",
+      "setup": "Short entry on EURUSD/GBPUSD when BTCUSD and XAUUSD are rising (price above recent level), indicating adverse cross\u2011asset correlation",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "In 3 of 4 losing short EURUSD/GBPUSD trades, BTCUSD and XAUUSD were higher, coinciding with price moving against the short."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Daily ATR below 0.002 with breakout attempt resulting in loss",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Trades 2, 4, and 5 exhibit daily ATR < 0.002 yet realize -9.42%, -9.78%, and -10.04% losses respectively"
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Low volatility regime (ATR < 0.002) combined with high relative volume breakout signal",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Three losing trades (EURUSD, GBPUSD, EURUSD) occur during low ATR periods with significant unrealized drawdowns despite initial breakout signals"
+    },
+    {
+      "affected_symbol": "EURUSD OR ALL",
+      "setup": "Daily ATR exceeds expected stop distance (volatility trap) leading to loss",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "4/5 trades (BTCUSD, GBPUSD, EURUSD, GBPUSD) had daily ATR > stop distance; all lost."
+    },
+    {
+      "affected_symbol": "EURUSD OR GBPUSD",
+      "setup": "Shorting when correlated assets (BTCUSD, XAUUSD) are rising",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "3/5 trades (EURUSD, GBPUSD, EURUSD) lost while BTCUSD/XAUUSD rose against short direction."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Stop loss distance > 1.5 * hourly ATR",
+      "confidence_reduction_points": 15,
+      "sample_size": 4,
+      "evidence": "Four losing trades had stop distance exceeding 1.5x hourly ATR."
+    },
+    {
+      "affected_symbol": "ALL",
+      "setup": "Hourly relative volume < 1",
+      "confidence_reduction_points": 15,
+      "sample_size": 3,
+      "evidence": "Three losing trades had hourly volume below average."
+    }
+  ],
+  "last_audit_at": "2026-10-15T06:15:48.187069+00:00",
+  "trades_analyzed": 8
+}

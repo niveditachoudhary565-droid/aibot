@@ -1,0 +1,13 @@
+{
+  "rules": [
+    {
+      "affected_symbol": "EURUSD",
+      "setup": "Low-volume breakout with elevated H1 ATR",
+      "confidence_reduction_points": 20,
+      "sample_size": 3,
+      "evidence": "All three demonstration losses shared the same low-volume volatility setup."
+    }
+  ],
+  "last_audit_at": "2026-09-24T13:37:55.676796+00:00",
+  "trades_analyzed": 3
+}
